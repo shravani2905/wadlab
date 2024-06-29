@@ -21,9 +21,9 @@ function Registration() {
         <input type="text" placeholder='Ente your query'{...register('password', { required: 'Password is required' })} />
         <input type="text" placeholder='Ente your mobile number'{...register('password', { required: 'Password is required' })} />
         <input type="text" placeholder='Ente your email'{...register('password', { required: 'Password is required' })} />
-        
+
         {errors.password && <p className="error">{errors.password.message}</p>}
-      <button type="submit bg-success">Login</button>
+      <button type="submit bg-success">Submit</button>
     </form>
   );
 }
