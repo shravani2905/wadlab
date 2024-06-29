@@ -4,8 +4,8 @@ import './Cart.css';
 
 function Cart() {
   const cartItems = [
-    { id: 1, name: 'Product 1', price: 'Rs.100', quantity: 1, image: 'https://via.placeholder.com/150' },
-    { id: 2, name: 'Product 2', price: 'Rs.223', quantity: 3, image: 'https://via.placeholder.com/150' },
+    { id: 1, name: 'Book', price: 'Rs.100', quantity: 1, image: 'https://media.istockphoto.com/id/173015527/photo/a-single-red-book-on-a-white-surface.jpg?s=612x612&w=0&k=20&c=AeKmdZvg2_bRY2Yct7odWhZXav8CgDtLMc_5_pjSItY=' },
+    { id: 2, name: 'Umbrella', price: 'Rs.200', quantity: 3, image: 'https://media.istockphoto.com/id/866721702/photo/blue-umbrella.jpg?s=612x612&w=0&k=20&c=LSfuo5Wx9tjPRUeyGktlBcA7rY2Nm6zdxS4xH4Vh8ng=' },
   ];
 
  
@@ -28,7 +28,7 @@ function Cart() {
           ))}
           <div className="cart-total">
             
-            <button className="checkout">Proceed to Checkout</button>
+            <button className="checkout">Buy now</button>
           </div>
         </div>
       )}

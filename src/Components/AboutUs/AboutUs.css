@@ -1,5 +1,16 @@
 .aboutus{
     margin-top: 80px;
-    color: rgb(60, 231, 60);
+    color: rgb(26, 68, 158);
     text-align: center;
+}
+.amazon{
+    color:rgb(172, 21, 160);
+    text-align: center;
+}
+.about{
+    margin-top:50px;
+    padding-top: 60px;
+    background-color: rgba(166, 218, 133, 0.728);
+    height: 900px;
+  
 }
