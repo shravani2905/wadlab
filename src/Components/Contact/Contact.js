@@ -14,7 +14,7 @@ function Registration() {
       <h2 className='text-success text-center'>Contact Us</h2>
      
         
-        <input type="text" placeholder='Enter you name'{...register('username', { required: 'Username is required' })} />
+        <input type="text" placeholder='Enter your name'{...register('username', { required: 'Username is required' })} />
         {errors.username && <p className="error">{errors.username.message}</p>}
       
      
